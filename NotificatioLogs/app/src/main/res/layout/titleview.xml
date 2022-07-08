@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#1A1F2B"
+    android:orientation="horizontal"
+    android:paddingTop="7dp">
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+
+        android:fontFamily="@font/robolightfont"
+        android:padding="8dp"
+        android:text="@string/app_name"
+
+        android:textColor="@color/mainback"
+        android:textSize="20sp" />
+</RelativeLayout>

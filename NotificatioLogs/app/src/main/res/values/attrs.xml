@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryTitleColor" format="color" />
+    <attr name="primaryDescriptionColor" format="color" />
+    <attr name="primaryDateColor" format="color" />
+    <attr name="primaryBackgroundColor" format="color" />
+    <attr name="primaryCardBackgroundColor" format="color" />
+    <attr name="iconBookmark" format="integer" />
+
+    <!--///dark-->
+    <attr name="dprimaryTitleColor" format="color" />
+    <attr name="dprimaryDescriptionColor" format="color" />
+    <attr name="dprimaryDateColor" format="color" />
+    <attr name="dprimaryBackgroundColor" format="color" />
+    <attr name="dprimaryCardBackgroundColor" format="color" />
+    <attr name="diconBookmark" format="integer" />
+</resources>

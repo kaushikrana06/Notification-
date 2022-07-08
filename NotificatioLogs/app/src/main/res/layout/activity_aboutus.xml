@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="258dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aboutus" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserratextralightgoogle"
+                android:gravity="center"
+                android:text="At Xenon Studio, we believe everyone deserves to have a safe, secure and useful app.\nInnovation and simplicity makes us happy: our goal is to make AI reach every user, with the help of AI every user can feel his/her life easy.\n\nWe Have partnered with Uptodown App Studio To make Amazing Notification App, where user can easily manage there phones notification\n\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/montserratmediumgoogle"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="Meet The Team"
+                android:textAlignment="center"
+                android:textColor="#FF5960"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:id="@+id/harshil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/montserratmediumgoogle"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Harshil Patel"
+                    android:textAlignment="center"
+                    android:textColor="#23334E"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/myfont"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Developer"
+                    android:textAlignment="center"
+                    android:textColor="#02A796"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/montserratmediumgoogle"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Barry Jones"
+                    android:textAlignment="center"
+                    android:textColor="#23334E"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/myfont"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Project Manager"
+                    android:textAlignment="center"
+                    android:textColor="#02A796"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/montserratmediumgoogle"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Smit Patel"
+                    android:textAlignment="center"
+                    android:textColor="#23334E"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/myfont"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="UI/UX Designer"
+                    android:textAlignment="center"
+                    android:textColor="#02A796"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/btnroundbtndesign"
+                android:fontFamily=""
+                android:text="Contact Team" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="apps">
+        <item>Whatsapp</item>
+        <item>Gmail</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Calendar</item>
+        <item>Telegram</item>
+        <item>Calls</item>
+    </array>
+</resources>

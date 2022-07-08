@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Notification Log</string>
+    //test-native-ad-- ca-app-pub-3940256099942544/2247696110
+
+    //My-native-ad-id--ca-app-pub-8081344892743036/1416909324
+    //My-App-Ad-ID--ca-app-pub-8081344892743036~8262343723
+    //TEST-VIDEO-NATIVE-- ca-app-pub-3940256099942544/1044960115
+
+    <string name="admob_native_id" translatable="false">ca-app-pub-6778147776084460~5125951012</string>
+    <string name="ad_native_unit_id" translatable="false">ca-app-pub-6778147776084460/6838397011</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+<!--    &lt;!&ndash;facebook ads&ndash;&gt;-->
+<!--    <string name="fb_banner_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280088249019960</string>-->
+<!--    <string name="fb_native_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_913704952324960</string>-->
+<!--    <string name="fb_interstitial_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280089689019816</string>-->
+<!--    <string name="fb_medium_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280090645686387</string>-->
+<!--    <string name="fb_native_banner_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280092799019505</string>-->
+
+    <!--  <string name="google_app_id">1:1035726540825:android:244f8790b64bd594</string>
+    <string name="google_api_key">AIzaSyA4S-oSfR23fqIGotIUWii-4sVEhMoS_cs</string>-->
+    <!-- Activities -->
+    <string name="activity_browse">Notifications</string>
+    <string name="activity_details">Details</string>
+    <string name="settings_browse_summary_singular" translatable="false">%1$d notification</string>
+    <string name="settings_browse_summary_plural" translatable="false">%1$d notifications</string>
+    <!-- Menu -->
+    <string name="menu_about">About</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_export">Export</string>
+
+    <!-- Settings categories -->
+    <string name="category_settings">Settings</string>
+    <string name="category_actions">Actions</string>
+
+    <!-- Status -->
+    <string name="settings_status">Status</string>
+    <string name="settings_notification_access_unknown">Unknown</string>
+    <string name="settings_notification_access_enabled">Enabled</string>
+    <string name="settings_notification_access_disabled">Disabled — Click here to enable</string>
+
+    <!-- Browse -->
+    <string name="nav_browse">All Notifications</string>
+    <string name="settings_browse_summary">Click here to see the most recent notifications.</string>
+
+    <string name="action_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="hello_world" tools:ignore="MissingTranslation" translatable="false">Hello world!</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="opennotifwid">Notifications</string>
+    <string name="add_widget_QR">Add widget</string>
+    <!-- Notifications logged -->
+    <string name="settings_entries" translatable="false">Notifications logged</string>
+
+    <!-- Log text -->
+    <string name="settings_text">Log text</string>
+    <string name="settings_text_summary">Log the actual content of the notifications. Increases the size of the log file but allows you to read past messages.</string>
+
+    //Main
+    <string name="main_browseapp">Browse Notifications</string>
+    <string name="nav_apps">Notification Apps</string>
+    <string name="main_exportlog">Export Logs</string>
+    <string name="main_expotdescription">Export Your Logs</string>
+    <string name="nav_tutorial">Tutorial</string>
+    <string name="main_tutorialdes">Learn How To Use App</string>
+    <string name="main_fav">Favorite</string>
+    <string name="main_favdes">Your Favorite Notification Are Here</string>
+    <string name="nav_share">Share App</string>
+    <string name="sharedes">Share App With Friends And Family</string>
+
+    //WElcome
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome !</string>
+    <string name="slide_1_desc">Get All Your Notifications On One Platform!</string>
+
+    <string name="slide_2_title">Secure</string>
+    <string name="slide_2_desc">Your Privacy Is Our Main Moto, Manage Notification Securely</string>
+
+    <string name="slide_3_title">Easy To Use</string>
+    <string name="slide_3_desc">Manage All Your Notification and Its Settings Easily</string>
+
+    <string name="slide_4_title">All New UI</string>
+    <string name="slide_4_desc">Now Enjoy The App With All New Features And User Interface In This Beta Version</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    //Settings Activity
+
+    <string name="settings_notificaton">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_changelan">Language</string>
+    <string name="settings_beta">Beta tester</string>
+    <string name="settings_updates">Updates</string>
+    <string name="settings_promocheck">Ongoing Log</string>
+    <string name="settings_aboutus">About Us</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_tnc">Terms And Conditions</string>
+    <string name="settings_notica">Notice</string>
+    <string name="settings_logout">Log Out</string>
+
+    <string name="about_us">At Xenon Studio, we believe everyone deserves to have a safe, secure and useful app.
+        Innovation and simplicity makes us happy: our goal is to make AI reach every user, with the help of AI every user can feel his/her life easy.
+        We Have partnered with Uptodown App Studio To make Amazing Notification App, where user can easily manage there phones notification
+    App Developed By Xenon Studio,
+
+    App Managed By UptoDown Apps Studio
+        For More - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Log ongoing -->
+    <string name="settings_ongoing">Log ongoing</string>
+    <string name="settings_ongoing_summary">Log ongoing notifications, for example download progresses. Creates a large number of additional log entries.</string>
+
+    <!-- Export -->
+    <string name="snackbar_export">Exporting… please wait…</string>
+
+    <!-- Delete -->
+    <string name="dialog_delete_header">Confirm deletion</string>
+    <string name="dialog_delete_text">Do you really want to delete the log file? This cannot be undone.</string>
+    <string name="dialog_delete_yes">Delete</string>
+    <string name="dialog_delete_no">Cancel</string>
+
+    <!-- Version -->
+    <string name="settings_version">Version</string>
+
+    <!-- Details -->
+    <string name="details_error">Unable to load the details of this entry.</string>
+    <string name="empty_log_file">No notifications logged yet!</string>
+    <string name="open_notification_settings">Notification Settings</string>
+
+    <!-- Delete Notification -->
+    <string name="delete_dialog_title">Delete notification</string>
+    <string name="delete_dialog_text">Do you really want to delete this notification? This cannot be undone.</string>
+    <string name="delete_dialog_yes">Delete</string>
+    <string name="delete_dialog_no">Cancel</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="title_help">Need Help ?</string>
+
+    <string name="send_sug">Send Suggestions</string>
+    <string name="help">Help</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="heldet">Please Enter Details</string>
+
+    <string name="paymentpromt">Query Type</string>
+
+    <string name="report">Report Issue</string>
+    <string name="settings_data">Help Us Improve App</string>
+
+    <string name="settings_datamore">Allow The App To Send Anonymous Usage Of Data</string>
+    <string name="title_activity_new_main">Notifications</string>
+    <string name="splash_notification_history_log" translatable="false">Notification History Log</string>
+    <string-array name="Query">
+        <item>General Query</item>
+        <item>Technical Query</item>
+        <item>Other Query</item>
+
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_stats">Statistics</string>
+    <string name="nav_refer" translatable="false"><![CDATA[Refer & Earn]]></string>
+    <string name="new_string">New</string>
+    <string name="alert">Alert!</string>
+    <string name="message_allow_permission">Please allow permission to use app.</string>
+    <string name="text_ok">OK</string>
+    <string name="message_no_notification">It Seems, No Notification Has Been Logged Yet!\n\nCome Back Once You Start Receiving Notification</string>
+    <string name="button_retry">Retry</string>
+    <string name="notification_access">Notification Access</string>
+    <string name="message_need_notify_access">To Get Started, Enable Notification Access For Notification Log</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="title_alert_beta">BETA Version</string>
+    <string name="message_alert_beta">This Version Of App Is In Beta Testing, So You Might Get Bugs or App Might Not Work Well At Someplace.\nWe Request You To Report Us Any Bugs By Clicking On Help Button On Menu \n\nThank You For Using The Beta App, You Will Soon Get New Updated Version</string>
+    <string name="button_got_it">Got It</string>
+    <string name="button_report_issue">Report Issue</string>
+    <string name="alert_title_tip">Tip !</string>
+    <string name="alert_message_tip">You Can Even Read Deleted WhatsApp Messages*</string>
+    <string name="search">Search</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="remove">Remove</string>
+    <string name="message_removed">Message removed from favorite!</string>
+    <string name="message_no_favorite">No favorites yet.</string>
+    <string name="message_add_favorite">Message added to favorites</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_country">Country</string>
+    <string name="query_general">General</string>
+    <string name="query_technical">Technical</string>
+    <string name="other_query">Other Query</string>
+    <string name="your_query">Your Query</string>
+    <string name="send">Send</string>
+    <string name="message_help_error">Some error occurred, Do write your query at notificationappgp@gmail.com</string>
+    <string name="message_query_send">Query send successfully!</string>
+    <string name="notification_logged" translatable="false">Notification Logged</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="open_app">Open App</string>
+    <string name="more_info">More Info</string>
+    <string name="check_your_internet_connection">Check Your Internet Connection !</string>
+    <string name="notification_updates"><![CDATA[Notifications & Updates]]></string>
+    <string name="message_notification_update">All The Updates, Offers, Promocodes Will Be Here</string>
+    <string name="title_app_whatsapp" translatable="false">WhatsApp</string>
+    <string name="title_app_gmail" translatable="false">Gmail</string>
+    <string name="title_app_facebook" translatable="false">Facebook</string>
+    <string name="title_app_instagram" translatable="false">Instagram</string>
+    <string name="title_app_calendar" translatable="false">Calendar</string>
+    <string name="title_app_telegram" translatable="false">Telegram</string>
+    <string name="title_app_calls" translatable="false">Calls</string>
+    <string name="language">Choose Language</string>
+    <string name="message_privacy" translatable="false">Uptodown Apps built the Notification History Log app as a Free app. This SERVICE is provided by Uptodown Apps at no cost and is intended for use as is.\n\nThis page is used to inform app users regarding our policies with the collection, use, and\ndisclosure of any Information if anyone decided to use our Service.\n\nIf you choose to use our Service, then you agree to the collection and use of information in relation\nto this policy. The Information that we collect is used for providing and improving the\nService. We will not use or share your information with anyone except as described\nin this Privacy Policy.\n\nPermission Details\n\nNotification History Log uses the following permissions:\n\nInternet: To show Ads using Admob and log errors using Fabric\nNotification Access: To listen to all your incoming notifications and to store them in your local database.\nStorage: To export notifications into Excel or Text files.\n\nNote: All your notifications data will be stored in your local phone memory and we don’t have any access to your information. If you uninstall your app, all stored data will be deleted permanently.\n\nInformation Collection and Use\n\nFor a better experience, while using our app, we may require you to provide us with certain information. The information that we request is will be retained by us and used as described in this privacy policy.\n\nThe app does use third-party services that may collect information used to identify you.\n\nLink to the privacy policy of third party service providers used by the app\n\nGoogle Play Services\nFabric\nAdMob\nLog Data\n\nWe want to inform you that whenever you use our Service, in the case of an error in the app we collect data and information (through Fabric) on your phone called Log Data. This Log Data may include information such as your device name, operating system version, the version of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.\n\nSecurity\n\nWe value your trust in providing us your Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.\n\nChanges to This Privacy Policy\n\nWe may update our Privacy Policy from time to time. Thus, you are advised to review\nthis page periodically for any changes. We will notify you of any changes by posting\nthe new Privacy Policy on this page. These changes are effective immediately after they are posted on\nthis page.\n\nContact Us\n\nIf you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.\n\n\nFor More : notificationappgp@gmail.com"</string>
+    <!--    <string name="message_terms"></string>-->
+    <string name="message_terms" translatable="false">These terms and conditions (\'Terms\', \'Agreement\') are an agreement between Mobile Application Developer (\'Mobile Application Developer\', \'us\', \'we\' or \'our\') and you (\'User\', \'you\' or \'your\'). This Agreement sets forth the general terms and conditions of your use of the Notification History Log mobile application and any of its products or services (collectively, \'Mobile Application\' or \'Services\').\n\nBackups\n\nWe are not responsible for Content residing in the Mobile Application. In no event shall we be held liable for any loss of any Content. It is your sole responsibility to maintain appropriate backup of your Content. Notwithstanding the foregoing, on some occasions and in certain circumstances, with absolutely no obligation, we may be able to restore some or all of your data that has been deleted as of a certain date and time when we may have backed up data for our own purposes. We make no guarantee that the data you need will be available.\n\nLinks to other mobile applications\n\nAlthough this Mobile Application may link to other mobile applications, we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked mobile application, unless specifically stated herein. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any businesses or individuals or the content of their mobile applications. We do not assume any responsibility or liability for the actions, products, services, and content of any other third-parties. You should carefully review the legal statements and other conditions of use of any mobile application which you access through a link from this Mobile Application. Your linking to any other off-site mobile applications is at your own risk.\n\nProhibited uses\n\nIn addition to other terms as set forth in the Agreement, you are prohibited from using the Mobile Application or its Content: (a.) for any unlawful purpose; (b.) to solicit others to perform or participate in any unlawful acts; (c.) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d.) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e.) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f.) to submit false or misleading information; (g.) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related mobile application, other mobile applications, or the Internet; (h.) to collect or track the personal information of others; (i.) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j.) for any obscene or immoral purpose; or (k.) to interfere with or circumvent the security features of the Service or any related mobile application, other mobile applications, or the Internet. We reserve the right to terminate your use of the Service or any related mobile application for violating any of the prohibited uses.\n\nIntellectual property rights\n\nThis Agreement does not transfer to you any intellectual property owned by Mobile Application Developer or third-parties, and all rights, titles, and interests in and to such property will remain (as between the parties) solely with Mobile Application Developer. All trademarks, service marks, graphics and logos used in connection with our Mobile Application or Services, are trademarks or registered trademarks of Mobile Application Developer or Mobile Application Developer licensors. Other trademarks, service marks, graphics and logos used in connection with our Mobile Application or Services may be the trademarks of other third-parties. Your use of our Mobile Application and Services grants you no right or license to reproduce or otherwise use any Mobile Application Developer or third-party trademarks.\n\nLimitation of liability\n\nTo the fullest extent permitted by applicable law, in no event will Mobile Application Developer, its affiliates, officers, directors, employees, agents, suppliers or licensors be liable to any person for (a): any indirect, incidental, special, punitive, cover or consequential damages (including, without limitation, damages for lost profits, revenue, sales, goodwill, use or content, impact on business, business interruption, loss of anticipated savings, loss of business opportunity) however caused, under any theory of liability, including, without limitation, contract, tort, warranty, breach of statutory duty, negligence or otherwise, even if Mobile Application Developer has been advised as to the possibility of such damages or could have foreseen such damages. To the maximum extent permitted by applicable law, the aggregate liability of Mobile Application Developer and its affiliates, officers, employees, agents, suppliers and licensors, relating to the services will be limited to an amount greater of one dollar or any amounts actually paid in cash by you to Mobile Application Developer for the prior one month period prior to the first event or occurrence giving rise to such liability. The limitations and exclusions also apply if this remedy does not fully compensate you for any losses or fails of its essential purpose.\n\nIndemnification\n\nYou agree to indemnify and hold Mobile Application Developer and its affiliates, directors, officers, employees, and agents harmless from and against any liabilities, losses, damages or costs, including reasonable attorney\'s fees, incurred in connection with or arising from any third-party allegations, claims, actions, disputes, or demands asserted against any of them as a result of or relating to your Content, your use of the Mobile Application or Services or any willful misconduct on your part.\n\nSeverability\n\nAll rights and restrictions contained in this Agreement may be exercised and shall be applicable and binding only to the extent that they do not violate any applicable laws and are intended to be limited to the extent necessary so that they will not render this Agreement illegal, invalid or unenforceable. If any provision or portion of any provision of this Agreement shall be held to be illegal, invalid or unenforceable by a court of competent jurisdiction, it is the intention of the parties that the remaining provisions or portions thereof shall constitute their agreement with respect to the subject matter hereof, and all such remaining provisions or portions thereof shall remain in full force and effect.\n\nDispute resolution\n\nThe formation, interpretation, and performance of this Agreement and any disputes arising out of it shall be governed by the substantive and procedural laws of Karnataka, India without regard to its rules on conflicts or choice of law and, to the extent applicable, the laws of India. The exclusive jurisdiction and venue for actions related to the subject matter hereof shall be the state and federal courts located in Karnataka, India, and you hereby submit to the personal jurisdiction of such courts. You hereby waive any right to a jury trial in any proceeding arising out of or related to this Agreement. The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.\n\nChanges and amendments\n\nWe reserve the right to modify this Agreement or its policies relating to the Mobile Application or Services at any time, effective upon posting of an updated version of this Agreement in the Mobile Application. When we do, we will post a notification in our Mobile Application. Continued use of the Mobile Application after any such changes shall constitute your consent to such changes. Policy was created with WebsitePolicies.\n\nAcceptance of these terms\n\nYou acknowledge that you have read this Agreement and agree to all its terms and conditions. By using the Mobile Application or its Services you agree to be bound by this Agreement. If you do not agree to abide by the terms of this Agreement, you are not authorized to use or access the Mobile Application and its Services.\n\nContacting us\n\nIf you have any questions about this Agreement, please contact us.\n\nThis document was last updated on June 27, 2019 \n\nFor More : notificationappgp@gmail.com</string>
+    <string name="share_message" translatable="false">Hey..! Worried about missing a Notification from your Favourite Apps ?\nDon\'t Worry - Notification History Log is here for the Rescue.\nDownload Now - https://play.google.com/store/apps/details?id=com.appnotification.notificationhistorylog\nView All your Old, Deleted App Notification, Whatsapp Messages. Enjoy!</string>
+    <string name="total_notification">Total notifications:</string>
+    <string name="more">More</string>
+    <string name="backup_restore">Backup/Restore</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="info">Info</string>
+    <string name="title_update">You Have Latest Version Of The App</string>
+    <string name="message_update">Now Manage And Search Notification Easily!</string>
+    <string name="developer_contact">Developer Contact</string>
+    <string name="internet_error">Internet Connection Error</string>
+    <string name="retry">Retry</string>
+    <string name="retry_button">Click To Retry</string>
+    <string name="message_no_notify">No Notifications Logged Yet!</string>
+    <string name="message_no_notify_yet">No Notification Has Been Logged Yet</string>
+    <string name="notify_log" translatable="false">Notification Log</string>
+    <string name="note">Note</string>
+    <string name="message_notification_exceed">You Have More Than 15,000 Notifications Logged, We Request You To Clear Notifications So That App Can Run Smoothly</string>
+    <string name="dismiss_caps">DISMISS</string>
+    <string name="clear_caps">CLEAR</string>
+    <string name="message_cleared">Cleared !</string>
+    <string name="alert_suggestion">Your Suggestion</string>
+    <string name="alert_suggestion_message">Provide Details And Send Us Mail</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="message_send_mail">SEND MAIL VIA GMAIL/YAHOO</string>
+    <string name="share_url">Share URL</string>
+    <string name="sharing_app">Sharing App..</string>
+    <string name="deleted_success">Deleted Successfully !</string>
+    <string name="message_deleted_success">Logs Has Been Deleted</string>
+    <string name="message_database_restore">Database Restored successfully Please Restart App</string>
+</resources>

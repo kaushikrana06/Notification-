@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_notification_access_disabled">अक्षम - सक्षम करने के लिए यहां क्लिक करें</string>
+    <string name="menu_delete">हटाना</string>
+    <string name="activity_browse">ब्राउज</string>
+    <string name="activity_details">विवरण</string>
+    <string name="category_actions">क्रिया</string>
+    <string name="category_settings">क्रिया</string>
+<!--    <string name="change_language">भाषा बदलो</string>-->
+    <string name="delete_dialog_no">रद्द करना</string>
+    <string name="delete_dialog_text">क्या आप वास्तव में इस सूचना को हटाना चाहते हैं? इसे असंपादित नहीं किया जा सकता है।</string>
+    <string name="delete_dialog_title">अधिसूचना हटाएं</string>
+    <string name="delete_dialog_yes">स्थिति</string>
+    <string name="details_error">Unable to load the details of this entry.</string>
+    <string name="dialog_delete_no">रद्द करना</string>
+    <string name="dialog_delete_text">मिटाने की पुष्टि</string>
+    <string name="dialog_delete_yes">हटाना</string>
+    <string name="empty_log_file">अभी तक कोई सूचना नहीं मिली!</string>
+    <string name="menu_about">के बारे में</string>
+    <string name="menu_export">निर्यात</string>
+    <string name="snackbar_export">निर्यात कर रहा है ... कृपया प्रतीक्षा करें ...</string>
+    <string name="settings_version">संस्करण</string>
+    <string name="settings_text">पाठ लॉग करें</string>
+    <string name="settings_ongoing_summary">डाउनलोड के रूप में चल रहे नोटिफिकेशन लॉग करें। यह बड़ी संख्या में अतिरिक्त लॉग प्रविष्टियाँ बनाता है।</string>
+    <string name="settings_status">स्थिति</string>
+    <string name="settings_notification_access_unknown">अनजान</string>
+    <string name="settings_ongoing">लॉग ऑन करना</string>
+    <string name="settings_notification_access_enabled">सक्रिय</string>
+    <string name="nav_browse">अधिसूचनाएँ ब्राउज़ करें</string>
+<!--    <string name="settings_about_summary">GitHub पर अधिसूचना लॉग। एमआईटी लाइसेंस के तहत लाइसेंस प्राप्त।</string>-->
+<!--    <string name="settings_about">के बारे में</string>-->
+    <string name="open_notification_settings">अधिसूचना सेटिंग</string>
+    <string name="menu_refresh">ताज़ा करना</string>
+<!--    <string name="notification_access_label">\@string/app_name</string>-->
+    <string name="settings_text_summary">वास्तविक अधिसूचना सामग्री लॉग करें। यह लॉग फ़ाइल का आकार बढ़ाता है लेकिन आपको पिछले संदेशों को पढ़ने की अनुमति देता है।</string>
+    <string name="dialog_delete_header">मिटाने की पुष्टि</string>
+
+
+    //Main
+    <string name="main_browseapp">अधिसूचनाएँ ब्राउज़ करें</string>
+    <string name="nav_apps">नोटिफ़िकेशन ऐप वाइज ब्राउज़ करें</string>
+    <string name="main_exportlog">लॉग्स भेजें</string>
+    <string name="main_expotdescription">अपने लॉग भेजें</string>
+    <string name="nav_tutorial">ट्यूटोरियल</string>
+    <string name="main_tutorialdes">जानिए कैसे करें ऐप का इस्तेमाल</string>
+    <string name="main_fav">पसंदीदा</string>
+    <string name="main_favdes">आपका पसंदीदा अधिसूचना यहाँ हैं</string>
+    <string name="nav_share">ऐप शेयर करें</string>
+    <string name="sharedes">दोस्तों और परिवार के साथ शेयर ऐप</string>
+
+    <string name="settings">सेटिंग</string>
+
+
+    <string name="settings_permissions">अनुमतियां</string>
+    <string name="settings_promocheck">लॉग ऑन करना</string>
+    <string name="settings_aboutus">हमारे बारे में</string>
+    <string name="settings_privacy">गोपनीयता नीति</string>
+    <string name="settings_tnc">नियम और शर्तें</string>
+    <string name="settings_logout">लोग आउट</string>
+    <string name="settings_changelan">भाषा</string>
+    <string name="settings_notica">नोटिस</string>
+
+
+    <string name="about_us">At Xenon Studio, we believe everyone deserves to have a safe, secure and useful app.
+        Innovation and simplicity makes us happy: our goal is to make AI reach every user, with the help of AI every user can feel his/her life easy.
+        We Have partnered with Uptodown App Studio To make Amazing Notification App, where user can easily manage there phones notification
+    App Developed By Xenon Studio,
+
+    App Managed By UptoDown Apps Studio
+        For More - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Delete Notification -->
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="favorites">पसंदीदा</string>
+
+    <string name="opennotifwid">सूचनाएं</string>
+    <string name="add_widget_QR">विजेट जोड़ें</string>
+    <!-- Notifications logged -->
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <string name="send_sug">सुझाव भेजें</string>
+
+    <string name="report">रिपोर्ट जारी करना</string>
+    <string name="settings_data">मदद एप्लिकेशन में सुधार</string>
+    <string name="settings_datamore">एप्लिकेशन को डेटा का बेनामी उपयोग भेजने की अनुमति दें</string>
+
+
+    <string name="help">मदद</string>
+    <string name="faqs">पूछे जाने वाले प्रश्न</string>
+    <string name="heldet">कृपया विवरण दर्ज करें</string>
+    <string name="paymentpromt">क्वेरी प्रकार</string>
+    <string name="title_activity_new_main">सूचनाएं</string>
+    <string name="title_activity_home">होमएक्टिविटी</string>
+    <string name="nav_stats">आंकड़े</string>
+    <string name="new_string">नया</string>
+    <string name="alert">चेतावनी!</string>
+    <string name="message_allow_permission">कृपया एप्लिकेशन का उपयोग करने की अनुमति दें।</string>
+    <string name="text_ok">ठीक है</string>
+    <string name="message_no_notification">यह लगता है, कोई अधिसूचना अभी तक प्राप्त नहीं हुई है! \\n\\n फिर से वापस एक बार जब आप कोई सूचना प्राप्त करते हैं</string>
+    <string name="button_retry">पुन: प्रयास करें</string>
+    <string name="notification_access">अधिसूचना पहुंच</string>
+    <string name="message_need_notify_access">आरंभ करने के लिए, अधिसूचना लॉग के लिए अधिसूचना पहुंच सक्षम करें</string>
+    <string name="allow_permission">अनुमति दें</string>
+    <string name="title_alert_beta">बीटा संस्करण</string>
+    <string name="message_alert_beta">ऐप का यह संस्करण बीटा परीक्षण में है, इसलिए आपको कहीं पर भी कीड़े या ऐप नहीं मिल सकते हैं।\\nआपसे अनुरोध है कि आप मेनू पर सहायता बटन पर क्लिक करके किसी भी कीड़े की रिपोर्ट करें\\n\\nबीटा ऐप का उपयोग करने के लिए धन्यवाद, आप जल्द ही नया अपडेटेड संस्करण प्राप्त करेंगे</string>
+    <string name="button_got_it">जान लिया</string>
+    <string name="button_report_issue">रिपोर्ट जारी करना</string>
+    <string name="alert_title_tip">टिप!</string>
+    <string name="alert_message_tip">आप व्हाट्सएप मैसेज भी पढ़ सकते हैं *</string>
+    <string name="search">खोज</string>
+    <string name="dark_mode">डार्क मोड</string>
+    <string name="title_favorites">पसंदीदा</string>
+    <string name="remove">हटाना</string>
+    <string name="message_removed">संदेश पसंदीदा से हटा दिया गया!</string>
+    <string name="message_no_favorite">अभी तक कोई पसंदीदा नहीं।</string>
+    <string name="message_add_favorite">संदेश पसंदीदा में जोड़ा गया</string>
+    <string name="enter_details">विवरण दर्ज करें</string>
+    <string name="hint_name">नाम</string>
+    <string name="hint_email">ईमेल</string>
+    <string name="hint_country">देश</string>
+    <string name="query_general">आम</string>
+    <string name="query_technical">तकनीकी</string>
+    <string name="other_query">अन्य प्रश्न</string>
+    <string name="your_query">आपके सवाल</string>
+    <string name="send">संदेश</string>
+    <string name="message_help_error">कुछ त्रुटि हुई, अपनी क्वेरी notificationappgp@gmail.com पर लिखें</string>
+    <string name="message_query_send">क्वेरी सफलतापूर्वक भेजें!</string>
+    <string name="notification_settings">अधिसूचना सेटिंग</string>
+    <string name="open_app">ऐप खोलो</string>
+    <string name="more_info">और जानकारी</string>
+    <string name="check_your_internet_connection">अपना इंटरनेट संपर्क जांचे !</string>
+    <string name="notification_updates"><![CDATA[सूचनाएं और अपडेट]]></string>
+    <string name="message_notification_update">सभी अपडेट, ऑफ़र, प्रोमोकोड यहां होंगे</string>
+    <string name="language">भाषा चुनें</string>
+    <string name="total_notification">कुल सूचनाएं:</string>
+    <string name="more">अधिक</string>
+    <string name="backup_restore">बैकअप/पुनर्स्थापित</string>
+    <string name="backup">बैकअप</string>
+    <string name="restore">पुनर्स्थापित</string>
+    <string name="info">जानकारी</string>
+    <string name="title_update">आप अनुप्रयोग के नवीनतम संस्करण है</string>
+    <string name="message_update">अब प्रबंधन और आसानी से खोज अधिसूचना!</string>
+    <string name="developer_contact">डेवलपर से संपर्क करें</string>
+    <string name="internet_error">इंटरनेट कनेक्शन त्रुटि</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <string name="retry_button">पुनः प्रयास करने के लिए क्लिक करें</string>
+    <string name="message_no_notify">कोई अधिसूचना लॉग इन नहीं!</string>
+    <string name="message_no_notify_yet">अभी तक कोई अधिसूचना नहीं मिली है</string>
+    <string name="note">ध्यान दें</string>
+    <string name="message_notification_exceed">आपने 15,000 से अधिक अधिसूचनाएँ लॉग इन की हैं, हम आपसे अनुरोध करते हैं कि आप अधिसूचनाएँ साफ़ करें ताकि ऐप स्मूथली चल सके</string>
+    <string name="dismiss_caps">खारिज</string>
+    <string name="clear_caps">स्पष्ट</string>
+    <string name="message_cleared">साफ़ कर दिया!</string>
+    <string name="alert_suggestion">आपका सुझाव</string>
+    <string name="alert_suggestion_message">विवरण प्रदान करें और हमें मेल भेजें</string>
+    <string name="send_mail">मेल भेजने</string>
+    <string name="message_send_mail">मेल VIA GMAIL/YAHOO भेजें</string>
+    <string name="share_url">शेयर यूआरएल</string>
+    <string name="sharing_app">शेयरिंग ऐप ।।</string>
+    <string name="deleted_success">सफलतापूर्वक मिटाया गया !</string>
+    <string name="message_deleted_success">लॉग्स को हटा दिया गया है</string>
+    <string name="message_database_restore">डेटाबेस को सफलतापूर्वक पुनर्स्थापित करें ऐप को पुनः प्रारंभ करें</string>
+    <string name="add_favr">पसंदीदा में जोड़ा गया</string>
+    <string name="remove_favr">पसंदीदा से हटाया गया</string>
+    <string name="no_favorites_items">कोई पसंदीदा नहीं</string>
+    <string name="no_favorites_msg">पसंदीदा में जोड़ने के लिए आइटम पर लंबी प्रेस।</string>
+    <string name="favorites_remove_msg">पसंदीदा से हटाने के लिए आइटम पर लंबा प्रेस।</string>
+    <string name="settings_browse_summary">सबसे हालिया सूचनाएँ देखने के लिए यहाँ क्लिक करें।</string>
+    <string name="action_settings">समायोजन</string>
+    <string name="next">अगला</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">जान लिया</string>
+    <string name="slide_1_title">स्वागत हे !</string>
+    <string name="slide_1_desc">एक मंच पर अपने सभी सूचनाएं प्राप्त करें!</string>
+    <string name="slide_2_title">सुरक्षित</string>
+    <string name="slide_2_desc">आपकी गोपनीयता हमारा मुख्य मोटो है, अधिसूचना को सुरक्षित रूप से प्रबंधित करें</string>
+    <string name="slide_3_title">प्रयोग करने में आसान</string>
+    <string name="slide_3_desc">अपने सभी अधिसूचना और इसकी सेटिंग्स को आसानी से प्रबंधित करें</string>
+    <string name="slide_4_title">सभी नई यूआई</string>
+    <string name="slide_4_desc">अब इस बीटा संस्करण में सभी नई सुविधाओं और उपयोगकर्ता इंटरफ़ेस के साथ ऐप का आनंद लें</string>
+    <string name="play_again_desc">स्वागत स्लाइडर को फिर से देखने के लिए, गोटो सेटिंग्स -> ऐप्स -> स्वागत स्लाइडर -> स्पष्ट डेटा</string>
+    <string name="play_again">फिर से चालू करें</string>
+    <string name="settings_beta">बीटा परीक्षण</string>
+    <string name="settings_updates">अपडेट</string>
+    <string name="title_help">मदद की ज़रूरत है ?</string>
+    <string name="settings_notificaton">सूचनाएं</string>
+
+</resources>

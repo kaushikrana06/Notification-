@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/activity_browse"
+        android:shortcutId="browse"
+        android:shortcutLongLabel="@string/activity_browse"
+        android:shortcutShortLabel="@string/activity_browse"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="org.hcilab.projects.nlogx.ui.BrowseActivity"
+            android:targetPackage="org.hcilab.projects.nlogx" />
+    </shortcut>
+
+</shortcuts>

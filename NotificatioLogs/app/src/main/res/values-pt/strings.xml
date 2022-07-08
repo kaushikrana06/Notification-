@@ -1,0 +1,230 @@
+<resources>
+
+
+    <!--  <string name="google_app_id">1:1035726540825:android:244f8790b64bd594</string>
+      <string name="google_api_key">AIzaSyA4S-oSfR23fqIGotIUWii-4sVEhMoS_cs</string>-->
+    <!-- Activities -->
+    <string name="activity_browse">Notificações</string>
+    <string name="activity_details">Detalhes</string>
+
+    <!-- Menu -->
+    <string name="menu_about">Sobre</string>
+    <string name="menu_refresh">Atualizar</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_export">Exportar</string>
+
+    <!-- Settings categories -->
+    <string name="category_settings">Definições
+</string>
+    <string name="category_actions">Ações</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Status -->
+    <string name="settings_status">Status
+</string>
+    <string name="settings_notification_access_unknown">Desconhecido</string>
+    <string name="settings_notification_access_enabled">ativado
+</string>
+    <string name="settings_notification_access_disabled">Desativado - Clique aqui para ativar</string>
+
+    <!-- Browse -->
+    <string name="nav_browse">Procurar todas as notificações</string>
+    <string name="settings_browse_summary">Clique aqui para ver as notificações mais recentes.</string>
+
+    <string name="action_settings">Definições</string>
+    <string name="favorites">Favoritos</string>
+
+    <string name="opennotifwid">Notificações</string>
+    <string name="add_widget_QR">Adicionar widget</string>
+    <!-- Notifications logged -->
+
+    <!-- Log text -->
+    <string name="settings_text">
+Texto de log</string>
+    <string name="settings_text_summary">Registre o conteúdo real das notificações. Aumenta o tamanho do arquivo de log, mas permite que você leia mensagens anteriores.</string>
+
+    //Main
+    <string name="main_browseapp">Procurar notificações</string>
+    <string name="nav_apps">Navegue pelos aplicativos de notificação</string>
+    <string name="main_exportlog">Exportar Logs</string>
+    <string name="main_expotdescription">Exportar seus logs</string>
+    <string name="nav_tutorial">Tutorial</string>
+    <string name="main_tutorialdes">Aprenda como usar o aplicativo</string>
+    <string name="main_fav">Favorito</string>
+    <string name="main_favdes">Sua notificação favorita está aqui</string>
+    <string name="nav_share">Compartilhe o aplicativo</string>
+    <string name="sharedes">Compartilhar aplicativo com amigos e familiares</string>
+
+    //Settings Activity
+
+    <string name="settings_permissions">Permissões</string>
+    <string name="settings_changelan">Língua</string>
+    <string name="settings_promocheck">Log em andamento</string>
+    <string name="settings_aboutus">Sobre nós</string>
+    <string name="settings_privacy">Política de Privacidade</string>
+    <string name="settings_tnc">Termos e Condições</string>
+    <string name="settings_notica">Aviso prévio</string>
+    <string name="settings_logout">Sair</string>
+
+    <string name="about_us"> Xenon Studio, acreditamos que todos merecem ter um aplicativo seguro e útil.
+     Inovação e simplicidade nos fazem felizes: nosso objetivo é fazer com que a IA alcance todos os usuários, com a ajuda da IA ​​cada usuário pode sentir sua vida fácil.
+     Fizemos uma parceria com o Uptodown App Studio Para fazer o Amazing Notification App, onde o usuário pode gerenciar facilmente a notificação de seus telefones
+ App desenvolvido por Xenon Studio,
+
+ App gerenciado por UptoDown Apps Studio
+     Para mais - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Log ongoing -->
+    <string name="settings_ongoing">Log em andamento</string>
+    <string name="settings_ongoing_summary">Log ongoing notifications, for example download progresses. Creates a large number of additional log entries.</string>
+
+    <!-- Export -->
+    <string name="snackbar_export">Exporting… please wait…</string>
+
+    <!-- Delete -->
+    <string name="dialog_delete_header">confirme</string>
+    <string name="dialog_delete_text">Você realmente deseja excluir o arquivo de log?
+
+Isto não pode ser desfeito.</string>
+    <string name="dialog_delete_yes">Excluir</string>
+    <string name="dialog_delete_no">Cancel</string>
+
+    <!-- Version -->
+    <string name="settings_version">Cancelar</string>
+
+    <!-- Details -->
+    <string name="details_error">Não foi possível carregar os detalhes desta entrada.</string>
+    <string name="empty_log_file">Nenhuma notificação registrada ainda!</string>
+    <string name="open_notification_settings">Configurações de notificação</string>
+
+    <!-- Delete Notification -->
+    <string name="delete_dialog_title">Excluir notificação</string>
+    <string name="delete_dialog_text">Tem certeza de que deseja excluir esta notificação? Isto não pode ser desfeito.</string>
+    <string name="delete_dialog_yes">Excluir</string>
+    <string name="delete_dialog_no">Cancelar</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Adicionar widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <string name="send_sug">Enviar sugestões</string>
+    <string name="heldet">Insira os detalhes</string>
+    <string name="report">Informar problema</string>
+
+    <string name="help">Socorro</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="settings_data">Ajude-nos a melhorar o aplicativo</string>
+    <string name="settings_datamore">Permitir que o aplicativo envie o uso anônimo de dados</string>
+    <string name="add_favr">Adicionado aos favoritos</string>
+    <string name="remove_favr">Removido dos Favoritos</string>
+    <string name="no_favorites_items">Sem favoritos</string>
+    <string name="no_favorites_msg">Pressione e segure um item para adicionar aos favoritos.</string>
+    <string name="favorites_remove_msg">Pressione longamente no item para removê-lo dos favoritos.</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">ENTENDI</string>
+    <string name="slide_1_title">Receber !</string>
+    <string name="slide_1_desc">Receba todas as suas notificações em uma plataforma!</string>
+    <string name="slide_2_title">Seguro</string>
+    <string name="slide_2_desc">Sua privacidade é nosso principal motor, gerencie notificações com segurança</string>
+    <string name="slide_3_title">Fácil de usar</string>
+    <string name="slide_3_desc">Gerencie todas as suas notificações e configurações facilmente</string>
+    <string name="slide_4_title">Nova IU</string>
+    <string name="slide_4_desc">Agora aproveite o aplicativo com todos os novos recursos e interface de usuário nesta versão beta</string>
+    <string name="play_again_desc">Para ver o controle deslizante de boas-vindas novamente, vá para Configurações -> aplicativos -> controle deslizante de boas-vindas -> limpar dados</string>
+    <string name="play_again">Jogar de novo</string>
+    <string name="settings_beta">Testes beta</string>
+    <string name="settings_updates">Atualizações</string>
+    <string name="title_help">Preciso de ajuda ?</string>
+    <string name="paymentpromt">Tipo de consulta</string>
+    <string name="title_activity_new_main">Notificações</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_stats">Estatisticas</string>
+    <string name="new_string">Novo</string>
+    <string name="alert">Alerta!</string>
+    <string name="message_allow_permission">Por favor, dê permissão para usar o aplicativo.</string>
+    <string name="text_ok">OK</string>
+    <string name="button_retry">Tentar novamente</string>
+    <string name="notification_access">Acesso de Notificação</string>
+    <string name="message_need_notify_access">Para começar, habilite o acesso à notificação para registro de notificação</string>
+    <string name="allow_permission">Permitir permissão</string>
+    <string name="title_alert_beta">Versão beta</string>
+    <string name="message_alert_beta">Esta versão do aplicativo está em teste beta, então você pode obter erros ou o aplicativo pode não funcionar bem em algum lugar.\\nSolicitamos que você nos informe sobre quaisquer bugs, clicando no botão Ajuda do menu\\n\\nObrigado por usar o aplicativo beta, em breve você receberá uma nova versão atualizada</string>
+    <string name="button_got_it">Entendi</string>
+    <string name="button_report_issue">Reportar problema</string>
+    <string name="alert_title_tip">Dica !</string>
+    <string name="alert_message_tip">Você pode até ler mensagens excluídas do WhatsApp *</string>
+    <string name="search">Procurar</string>
+    <string name="dark_mode">Modo escuro</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="remove">Retirar</string>
+    <string name="message_removed">Mensagem removida do favorito!</string>
+    <string name="message_no_favorite">Ainda não há favoritos.</string>
+    <string name="message_add_favorite">Mensagem adicionada aos favoritos</string>
+    <string name="enter_details">Insira os detalhes</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_email">O email</string>
+    <string name="hint_country">País</string>
+    <string name="query_general">Em geral</string>
+    <string name="query_technical">Técnico</string>
+    <string name="other_query">Outra Consulta</string>
+    <string name="your_query">Sua pergunta</string>
+    <string name="send">Mandar</string>
+    <string name="message_help_error">Ocorreu algum erro, escreva sua consulta em notificationappgp@gmail.com</string>
+    <string name="message_query_send">Consulta enviada com sucesso!</string>
+    <string name="notification_settings">Configurações de notificação</string>
+    <string name="open_app">Abra o aplicativo</string>
+    <string name="more_info">Mais informações</string>
+    <string name="check_your_internet_connection">Verifique sua conexão com a internet !</string>
+    <string name="notification_updates"><![CDATA[Notificações e atualizações]]></string>
+    <string name="message_notification_update">Todas as atualizações, ofertas e promocodes estarão aqui</string>
+    <string name="language">Escolha o seu idioma</string>
+    <string name="total_notification">Total de notificações:</string>
+    <string name="more">Mais</string>
+    <string name="backup_restore">Restauração de backup</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restaurar</string>
+    <string name="info">Informações</string>
+    <string name="title_update">Você tem a versão mais recente do aplicativo</string>
+    <string name="message_update">Agora gerencie e pesquise notificações facilmente!</string>
+    <string name="developer_contact">Contato do desenvolvedor</string>
+    <string name="internet_error">Erro de conexão com a Internet</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="retry_button">Clique para tentar novamente</string>
+    <string name="message_no_notify">Nenhuma notificação registrada ainda!</string>
+    <string name="message_no_notify_yet">Nenhuma notificação foi registrada ainda</string>
+    <string name="note">Observação</string>
+    <string name="message_notification_exceed">Você tem mais de 15.000 notificações registradas, solicitamos que apague as notificações para que o aplicativo funcione sem problemas</string>
+    <string name="dismiss_caps">LIBERAR</string>
+    <string name="clear_caps">CLARO</string>
+    <string name="message_cleared">Apagado!</string>
+    <string name="alert_suggestion">Sua sugestão</string>
+    <string name="alert_suggestion_message">Forneça detalhes e envie-nos correio</string>
+    <string name="send_mail">Enviar correio</string>
+    <string name="message_send_mail">ENVIAR E-MAIL VIA GMAIL/YAHOO</string>
+    <string name="share_url">URL de compartilhamento</string>
+    <string name="sharing_app">Compartilhando aplicativo ..</string>
+    <string name="deleted_success">Apagado com sucesso !</string>
+    <string name="message_deleted_success">Os registros foram excluídos</string>
+    <string name="message_database_restore">Banco de dados restaurado com sucesso, reinicie o aplicativo</string>
+    <string name="message_no_notification">Parece que nenhuma notificação foi registrada ainda! \\n\\nVolte assim que começar a receber notificações</string>
+    <string name="settings_notificaton">Notificações</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--facebook ads-->
+    <string name="fb_banner_ad" translatable="false">IMG_16_9_APP_INSTALL#9913703148991807_1280088249019960</string>
+    <string name="fb_native_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_913704952324960</string>
+    <string name="fb_interstitial_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280089689019816</string>
+    <string name="fb_medium_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280090645686387</string>
+    <string name="fb_native_banner_ad" translatable="false">IMG_16_9_APP_INSTALL#913703148991807_1280092799019505</string>
+</resources>

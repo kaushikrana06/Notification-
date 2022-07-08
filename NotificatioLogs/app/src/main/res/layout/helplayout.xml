@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_overuse"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/fontmosmed"
+                android:text="@string/heldet"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edtfullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email ID"
+                android:inputType="textEmailAddress"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/edtphonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number With Country Code"
+                android:inputType="phone"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edtpincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerpaypalpaytm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="20dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:entries="@array/Query"
+                    android:prompt="@string/paymentpromt"
+                    android:visibility="visible"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <EditText
+                    android:id="@+id/edtpaypalorpaytm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Your Query" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerpro"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/textView1"
+                android:layout_margin="5dp"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginEnd="20dp"
+                android:visibility="gone"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't show this message again" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btndiasub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/fontmos"
+                android:text="SEND MAIL"
+                android:textColor="@android:color/white"
+                android:visibility="visible">
+
+
+                <requestFocus />
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="By Clicking On 'Send Mail' You Accept Our Terms And Condition And Privacy Policy"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

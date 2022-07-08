@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.HelpActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/custom_toolbar" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                style="@style/NavTitleTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_details" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:boxStrokeColor="@color/colorText"
+                app:hintTextColor="@color/colorBlue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    style="@style/TextTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_name"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:boxStrokeColor="@color/colorText"
+                app:hintTextColor="@color/colorBlue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    style="@style/TextTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_email"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:boxStrokeColor="@color/colorText"
+                app:hintTextColor="@color/colorBlue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/country"
+                    style="@style/TextTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_country"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <RadioGroup
+                android:id="@+id/group_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/query_general"
+                    style="@style/TextTheme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableEnd="@drawable/radio_button"
+                    android:drawablePadding="30dp"
+                    android:text="@string/query_general" />
+
+                <RadioButton
+                    android:id="@+id/query_technical"
+                    style="@style/TextTheme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/radio_button"
+                    android:drawablePadding="30dp"
+                    android:text="@string/query_technical" />
+
+                <RadioButton
+                    android:id="@+id/query_other"
+                    style="@style/TextTheme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/radio_button"
+                    android:drawablePadding="30dp"
+                    android:text="@string/other_query" />
+
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:boxStrokeColor="@color/colorText"
+                app:hintTextColor="@color/colorBlue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/query"
+                    style="@style/TextTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/your_query"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/button_send"
+                style="@style/DescWhiteTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:backgroundTint="@color/colorBlue"
+                android:text="@string/send"
+                app:backgroundTint="@color/colorBlue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

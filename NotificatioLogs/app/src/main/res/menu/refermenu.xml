@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share Refer Code"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_myaccount"
+        android:orderInCategory="100"
+        android:title="My Account"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:title="Know More"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_red"
+        android:orderInCategory="100"
+        android:title="Redeem"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_convert_credits"
+                android:orderInCategory="100"
+                android:title="Convert Into Credits"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_convert"
+                android:orderInCategory="100"
+                android:title="Convert Into Money"
+                app:showAsAction="never" />
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/action_mail"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+</menu>

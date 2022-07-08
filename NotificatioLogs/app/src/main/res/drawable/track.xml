@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorLightGrey" />
+            <corners android:radius="100sp" />
+            <!-- results in the track looking smaller than the thumb -->
+            <stroke android:width="8dp" android:color="#00ffffff" />
+        </shape>
+
+    </item>
+
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorLightGrey" />
+            <corners android:radius="100sp" />
+            <!-- results in the track looking smaller than the thumb -->
+            <stroke android:width="8dp" android:color="#00ffffff" />
+        </shape>
+    </item>
+</selector>

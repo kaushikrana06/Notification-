@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="HomeTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorBlack</item>
+        <!-- Status bar stuff. -->
+        <item name="android:statusBarColor">@color/colorBlack</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="HomeTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+</resources>

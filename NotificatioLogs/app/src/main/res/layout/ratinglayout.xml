@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:background="@color/colordarkblue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Please Give Your Feedback"
+
+        android:textColor="@color/colorTextWhite"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="Rate App !"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="15dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBardai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:outlineAmbientShadowColor="@android:color/holo_red_light"
+        android:rating="0"
+        android:stepSize="1.0" />
+
+</LinearLayout>

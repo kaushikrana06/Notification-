@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainback"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/splashscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+
+                android:layout_centerInParent="true"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/cominggif"
+                android:gravity="center" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/montserratmediumgoogle"
+                android:gravity="center"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="Coming Soon"
+                android:textAlignment="center"
+                android:textColor="#FF5960"
+                android:textSize="25dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:id="@+id/harshil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/montserratmediumgoogle"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Benefits Of Refer &amp; Earn"
+                    android:textAlignment="center"
+                    android:textColor="#23334E"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/myfont"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Remove Ads \n\nWin Coupons \n\n Get Access To BETA Versions \n\n Increase Log Limit \n\nAnd Lot More..."
+                    android:textAlignment="center"
+                    android:textColor="#02A796"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/montserratmediumgoogle"
+                android:gravity="center"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="STAY TUNNED"
+                android:textAlignment="center"
+                android:textColor="#23334E"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

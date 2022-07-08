@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="gone"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageView
+        android:id="@+id/logimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_timer"
+        android:visibility="gone"
+        app:tint="@color/colorText" />
+
+    <TextView
+        android:id="@+id/logtxt"
+        style="@style/TextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/message_no_notification"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_check"
+        style="@style/MediumTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/button_retry"
+        android:visibility="gone"
+        app:backgroundTint="@color/colorNavBack" />
+
+    <ImageView
+        android:id="@+id/acimage"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/ic_signup"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/actitle"
+        style="@style/TextTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/notification_access"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/acsubtext"
+        style="@style/MediumTextTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/message_need_notify_access"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_allow"
+        style="@style/MediumTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/allow_permission"
+        android:visibility="gone"
+        app:backgroundTint="@color/colorNavBack" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

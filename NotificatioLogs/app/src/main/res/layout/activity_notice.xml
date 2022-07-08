@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myrecview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+    <LinearLayout
+        android:id="@+id/linernotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/ic_launcher_background"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:text="@string/check_your_internet_connection"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!--   <com.robertlevonyan.views.customfloatingactionbutton.FloatingActionLayout
+           android:id="@+id/customFABL"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:background="@color/colorAccent"
+           app:fabColor="#df7243"
+           app:fabType="roundedSquare"
+           android:layout_gravity="bottom|end"
+           android:layout_margin="27dp"
+           android:layout_alignParentBottom="true">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ic_share_w_24dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:textColor="@android:color/white"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_margin="5dp"
+                   android:text="Refer And Earn  " />
+
+
+           </LinearLayout>
+
+       </com.robertlevonyan.views.customfloatingactionbutton.FloatingActionLayout>-->
+
+
+    <!-- <LinearLayout
+         android:id="@+id/layoutinternet"
+         android:visibility="invisible"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+     <ImageView
+         android:layout_width="96dp"
+         android:layout_height="97dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="81dp"
+         android:background="@drawable/icons8wfioff52" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:textStyle="bold"
+             android:layout_margin="20dp"
+             android:textSize="20dp"
+             android:layout_height="55dp"
+             android:text="Check Your Internet Connection" />
+
+     </LinearLayout>
+ -->
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginBottom="184dp"
+         android:text="Image Copyrihted To Its Respected Owner"
+         android:textSize="2dp" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="27dp"
+         android:text="Under Development"
+         android:textColor="@color/colorAccent"
+         android:textStyle="bold"
+         android:textSize="20dp" />
+
+     <Button
+         android:id="@+id/btnlimit"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginBottom="212dp"
+         android:text="LIMIT" />-->
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="HomeTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- Status bar stuff. -->
+        <item name="android:statusBarColor">@color/colorLighBlue</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="HomeTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

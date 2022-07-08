@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GuideActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/custom_toolbar" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/fb_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_splash_logo" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                style="@style/BoldMediumTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="We Make Our App easy to use but Some Users might face difficulty using the app Or What do to with the Features \n\n So Here we will Provide you details and information using the features \n\nIf You still have issue using the app Please mail us" />
+
+            <TextView
+                style="@style/TipsTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="Tips"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:id="@+id/harshil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Logs Limits"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/MediumTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="To make smooth and decrease Loading time we have set limit for things, which make app run smooth \n\n -Search Limit(Home Page):5999 \n\n-Search Limit(Browse All Notification Page):10999 \n\n-Stats Page Limit:29999 \n\n You can log unlimitd notifcations but for best use and make app run smooth we request you to delete old notification after getting 10-12k Notifications "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/harshil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="How To View Deleted Messages"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/MediumTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="
+
+Step 1: Open App And Make Sure You Have Enabled Notification Permission\n\n
+
+
+
+ Step 2: If Any One Sends You Message and Then Deletes It. You Will Be Able to see the message by Clicking On Browse Notification Option or in Home Page\n\n
+
+
+
+  Step 3: Search The Contact Name On Search Bar and View That Deleted Message"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Search Notifications"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/MediumTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="You can search Notifications, Messages, Contact Name, App Name, Package &amp; Date  "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="View Notifications App Wise"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/MediumTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="Most people Want to just view notification from few apps, so we have option to view notification of most popular apps. Here you can only view notification of particular apps. Go to menu and click on browse notification app wise option "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/BlueMediumTextTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="More"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/DescTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/desc_padding"
+                    android:paddingRight="@dimen/desc_padding"
+                    android:text="For More Info We Request You To View Our FAQs or Contact Us"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily=""
+                android:text="Contact Team"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/fb_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

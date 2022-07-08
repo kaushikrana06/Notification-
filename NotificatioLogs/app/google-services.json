@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84842097604",
+    "firebase_url": "https://notificationlog-cbb88.firebaseio.com",
+    "project_id": "notificationlog-cbb88",
+    "storage_bucket": "notificationlog-cbb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84842097604:android:ca2663c3c29633c82b5291",
+        "android_client_info": {
+          "package_name": "com.appnotification.notificationhistorylog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84842097604-igdo8l0odmidi4p9vrpchnpcqksbj7pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ0MvnpoWjEtFqRgYKRogD4q3S_3Bg5eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84842097604-igdo8l0odmidi4p9vrpchnpcqksbj7pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

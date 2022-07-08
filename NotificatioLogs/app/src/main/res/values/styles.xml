@@ -1,0 +1,282 @@
+<resources>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorText</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorText</item>
+        <item name="android:background">@color/colorNavBack</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorText</item>
+    </style>
+
+    <style name="SplashTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="TipsTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPink</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="HomeTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorLighBlue</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="TitleTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TutorialTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CountTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="NavTitleTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BoldTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MediumTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BoldMediumTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DescTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SmallTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextWhiteTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="DescWhiteTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BlueMediumTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BlueDescTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SmallBlueTextTheme" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="HomeTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/blackTextColor</item>
+        <item name="primaryTitleColor">@color/primaryTitleColor</item>
+        <item name="primaryDescriptionColor">@color/primaryDescriptionColor</item>
+        <item name="primaryDateColor">@color/primaryDateColor</item>
+        <item name="primaryBackgroundColor">@color/primaryBackgroundColor</item>
+        <item name="primaryCardBackgroundColor">@color/primaryCardBackgroundColor</item>
+        <item name="android:title">@color/white</item>
+        <item name="android:summary">@color/white</item>
+        <item name="android:preferenceStyle">@color/white</item>
+        <item name="android:summaryColumn">@color/white</item>
+
+        <!--  <item name="windowActionBar">false</item>
+          <item name="windowNoTitle">true</item>-->
+        <!-- <style name="parent">
+             <item name="android:layout_width">match_parent</item>
+             <item name="android:layout_height">wrap_content</item>
+         </style>
+
+         <style name="viewParent">
+             <item name="android:layout_width">wrap_content</item>
+             <item name="android:layout_height">wrap_content</item>
+         </style>
+
+         <style name="parent.TextLayout">
+             <item name="android:layout_marginLeft">15dp</item>
+         </style>
+
+         <style name="modifiedEditText" parent="parent">
+             <item name="android:textSize">@dimen/newsMoreTextSize</item>
+         </style>-->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/fontmosreg</item>
+    </style>
+
+    <style name="AlertDialogCustom">
+        <item name="android:textColor">#B3FFFFFF</item>
+        <item name="android:background">#1A1F2B</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#D81B60</item>
+        <item name="android:textColorPrimary">#B3FFFFFF</item>
+        <item name="android:background">#1A1F2B</item>
+
+    </style>
+
+    <style name="AlertDialogedit" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#1A1F2B</item>
+        <item name="android:textColorPrimary">#575B6D</item>
+        <item name="android:background">#C2C3CC</item>
+
+    </style>
+
+    <style name="NotificationsLogged" parent="Theme.AppCompat.DayNight">
+        <item name="android:title">@color/white</item>
+        <item name="android:summary">@color/white</item>
+        <item name="android:preferenceStyle">@color/white</item>
+        <item name="android:summaryColumn">@color/white</item>
+    </style>
+    <!-- Night application theme. -->
+    <style name="AppTheme.Base.Night" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="primaryTitleColor">@color/primaryTitleColorNight</item>
+        <item name="primaryDescriptionColor">@color/primaryDescriptionColorNight</item>
+        <item name="primaryDateColor">@color/primaryDateColorNight</item>
+        <item name="primaryBackgroundColor">@color/primaryBackgroundColorNight</item>
+        <item name="primaryCardBackgroundColor">@color/primaryCardBackgroundColorNight</item>
+
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="primaryTitleColor">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="primaryDescriptionColor">@color/mainback</item>
+        <item name="primaryDateColor">@color/mainback</item>
+        <item name="primaryBackgroundColor">@color/white</item>
+        <item name="primaryCardBackgroundColor">@color/white</item>
+        <item name="android:title">@color/mainback</item>
+        <item name="android:summary">@color/mainback</item>
+        <item name="android:preferenceStyle">@color/mainback</item>
+        <item name="android:summaryColumn">@color/mainback</item>
+
+
+        <item name="editTextColor">@color/white</item>
+        <item name="android:backupAgent">@color/titilewhite</item>
+        <item name="actionBarItemBackground">@color/cardb</item>
+        <item name="textAppearanceLargePopupMenu">@color/mainback</item>
+        <item name="textAppearanceListItem">@color/textcolor2</item>
+
+    </style>
+    <!--<style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat" />-->
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">#4285F4</item>
+        <item name="colorAccent">#4285F4</item>
+    </style>
+
+    <!--//dark mode-->
+
+
+    <!-- <style name="PrefsTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/prefs_bg</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:listViewStyle">@style/listViewPrefs</item>
+    </style>
+
+    <style name="listViewPrefs" parent="@android:style/Widget.ListView">
+        <item name="android:background">@color/prefs_bg</item>
+        <item name="android:cacheColorHint">@color/prefs_bg</item>
+    </style>-->
+
+
+    <style name="rg">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">monospace</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Display3" parent="Base.TextAppearance.AppCompat.Display3" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--    <style name="HomeTheme.NavigationTheme" >-->
+    <!--        <item name="colorPrimary">@color/colorLighBlue</item>-->
+    <!--        <item name="android:textColorSecondary">@color/colorLighBlue</item>-->
+    <!--    </style>-->
+</resources>

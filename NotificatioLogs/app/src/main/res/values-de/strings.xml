@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="notification_access_label">\@string/app_name</string>-->
+    <string name="menu_about">Über</string>
+<!--    <string name="settings_about">Über</string>-->
+    <string name="category_actions">Aktionen</string>
+    <string name="category_settings">Aktionen</string>
+    <string name="activity_browse">Durchsuche</string>
+    <string name="nav_browse">Durchsuchen Sie Benachrichtigungen</string>
+    <string name="delete_dialog_no">Stornieren</string>
+    <string name="dialog_delete_no">Stornieren</string>
+<!--    <string name="change_language">Sprache ändern</string>-->
+    <string name="dialog_delete_header">Löschung bestätigen</string>
+    <string name="delete_dialog_yes">Löschen</string>
+    <string name="dialog_delete_yes">Löschen</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="delete_dialog_title">Benachrichtigung löschen</string>
+    <string name="activity_details">Einzelheiten</string>
+    <string name="settings_notification_access_disabled">Deaktiviert - Klicken Sie hier, um dies zu aktivieren</string>
+    <string name="dialog_delete_text">Möchten Sie die Protokolldatei wirklich löschen? Das kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_dialog_text">Möchten Sie diese Benachrichtigung wirklich löschen? Das kann nicht rückgängig gemacht werden.</string>
+    <string name="settings_notification_access_enabled">aktiviert</string>
+    <string name="menu_export">Ausfuhr</string>
+    <string name="snackbar_export">Exportieren ... bitte warten ...</string>
+    <string name="settings_ongoing">Protokoll läuft</string>
+    <string name="settings_ongoing_summary">Protokollieren Sie laufende Benachrichtigungen, z. B. Downloads. Dadurch wird eine große Anzahl zusätzlicher Protokolleinträge erstellt.</string>
+    <string name="settings_text">Protokolltext</string>
+    <string name="settings_text_summary">Protokollieren Sie den tatsächlichen Benachrichtigungsinhalt. Dadurch wird die Protokolldatei vergrößert, Sie können jedoch frühere Nachrichten lesen.</string>
+    <string name="empty_log_file">Keine Benachrichtigungen angemeldet!</string>
+<!--    <string name="settings_about_summary">Benachrichtigungsprotokoll auf GitHub. Lizenziert unter der MIT-Lizenz.</string>-->
+    <string name="open_notification_settings">Benachrichtigungseinstellungen</string>
+    <string name="menu_refresh">Aktualisierung</string>
+    <string name="settings_status">Status</string>
+    <string name="details_error">Die Details dieses Eintrags können nicht geladen werden.</string>
+    <string name="settings_notification_access_unknown">unbekannte</string>
+    <string name="settings_version">Ausführung</string>
+
+
+    //Main
+    <string name="main_browseapp">Durchsuchen Sie Benachrichtigungen</string>
+    <string name="nav_apps">Durchsuchen Sie Notification Apps Wise</string>
+    <string name="main_exportlog">Protokolle exportieren</string>
+    <string name="main_expotdescription">Senden Sie Ihre Protokolle</string>
+    <string name="nav_tutorial">Lernen</string>
+    <string name="main_tutorialdes">Erfahren Sie, wie Sie die App verwenden</string>
+    <string name="main_fav">Liebling</string>
+    <string name="main_favdes">Ihre Lieblingsbenachrichtigung ist hier</string>
+    <string name="nav_share">App teilen</string>
+    <string name="sharedes">App mit Freunden und Familie teilen</string>
+
+
+    //Settings Activity
+
+    //
+<!--    <string name="text_recognize">Bild erkennen</string>-->
+    <string name="settings_permissions">Berechtigungen</string>
+    <string name="settings_promocheck">Protokoll läuft</string>
+    <string name="settings_aboutus">Über uns</string>
+    <string name="settings_privacy">Datenschutz-Bestimmungen</string>
+    <string name="settings_tnc">Geschäftsbedingungen</string>
+    <string name="settings_logout">Ausloggen</string>
+    <string name="settings_changelan">Sprache</string>
+    <string name="settings_notica">Beachten</string>
+
+
+    <string name="about_us">At Xenon Studio, we believe everyone deserves to have a safe, secure and useful app.
+        Innovation and simplicity makes us happy: our goal is to make AI reach every user, with the help of AI every user can feel his/her life easy.
+        We Have partnered with Uptodown App Studio To make Amazing Notification App, where user can easily manage there phones notification
+    App Developed By Xenon Studio,
+
+    App Managed By UptoDown Apps Studio
+        For More - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Delete Notification -->
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="favorites">Favoritinnen</string>
+
+    <string name="opennotifwid">Benachrichtigungen</string>
+    <string name="add_widget_QR">Widget hinzufügen</string>
+    <!-- Notifications logged -->
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <string name="send_sug">Vorschläge senden</string>
+    <string name="settings_data">Helfen Sie uns, die App zu verbessern
+</string>
+    <string name="settings_datamore">Ermöglichen Sie der App, anonyme Datennutzung zu senden</string>
+
+    <string name="help">Hilfe</string>
+    <string name="heldet">Bitte geben Sie Details ein</string>
+    <string name="report">Melde Probleme</string>
+
+    <string name="faqs">FAQs</string>
+    <string name="add_favr">Zu den Favoriten hinzugefügt</string>
+    <string name="remove_favr">Aus Favoriten entfernt</string>
+    <string name="no_favorites_items">Keine Favoriten</string>
+    <string name="no_favorites_msg">Drücken Sie lange auf das Element, um es zu den Favoriten hinzuzufügen.</string>
+    <string name="favorites_remove_msg">Drücken Sie lange auf das Element, um es aus den Favoriten zu entfernen.</string>
+    <string name="settings_browse_summary">Klicken Sie hier, um die neuesten Benachrichtigungen anzuzeigen.</string>
+    <string name="action_settings">die Einstellungen</string>
+    <string name="settings">die Einstellungen</string>
+    <string name="settings_beta">Beta-Tests</string>
+    <string name="settings_updates">Aktualisierung</string>
+    <string name="title_help">Brauchen Sie Hilfe ?</string>
+    <string name="paymentpromt">Abfragetyp</string>
+    <string name="title_activity_new_main">Benachrichtigungen</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_stats">Statistiken</string>
+    <string name="new_string">Neu</string>
+    <string name="alert">Aufmerksam!</string>
+    <string name="message_allow_permission">Bitte erlauben Sie die Erlaubnis zur Nutzung der App.</string>
+    <string name="text_ok">OK</string>
+    <string name="message_no_notification">Es scheint, dass noch keine Benachrichtigung protokolliert wurde! \\n\\nKommen Sie zurück, sobald Sie eine Benachrichtigung erhalten</string>
+    <string name="button_retry">Wiederholen</string>
+    <string name="notification_access">Benachrichtigungszugriff</string>
+    <string name="message_need_notify_access">Aktivieren Sie zunächst den Benachrichtigungszugriff für das Benachrichtigungsprotokoll</string>
+    <string name="allow_permission">Berechtigung zulassen</string>
+    <string name="title_alert_beta">Beta version</string>
+    <string name="message_alert_beta">Diese Version der App befindet sich im Beta-Test, sodass Sie möglicherweise Fehler bekommen oder die App an einem bestimmten Ort möglicherweise nicht gut funktioniert.</string>
+    <string name="button_got_it">Verstanden</string>
+    <string name="alert_title_tip">Trinkgeld !</string>
+    <string name="button_report_issue">Melde Probleme</string>
+    <string name="alert_message_tip">Sie können sogar gelöschte WhatsApp-Nachrichten lesen *</string>
+    <string name="search">Suche</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="title_favorites">Favoriten</string>
+    <string name="remove">Entfernen</string>
+    <string name="message_removed">Nachricht vom Favoriten entfernt!</string>
+    <string name="message_no_favorite">Noch keine Favoriten.</string>
+    <string name="message_add_favorite">Nachricht zu Favoriten hinzugefügt</string>
+    <string name="enter_details">Geben Sie Details ein</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_country">Land</string>
+    <string name="query_general">Allgemeines</string>
+    <string name="query_technical">Technisch</string>
+    <string name="other_query">Andere Abfrage</string>
+    <string name="your_query">Ihre Anfrage</string>
+    <string name="send">Senden</string>
+    <string name="message_help_error">Es ist ein Fehler aufgetreten. Schreiben Sie Ihre Anfrage an notificationappgp@gmail.com</string>
+    <string name="message_query_send">Anfrage erfolgreich senden!</string>
+    <string name="notification_settings">Benachrichtigungseinstellungen</string>
+    <string name="open_app">Öffne App</string>
+    <string name="more_info">Mehr Info</string>
+    <string name="check_your_internet_connection">Prüfe deine Internetverbindung !</string>
+    <string name="notification_updates"><![CDATA[Benachrichtigungen & Updates]]></string>
+    <string name="message_notification_update">Alle Updates, Angebote und Promocodes werden hier sein</string>
+    <string name="language">Sprache wählen</string>
+    <string name="total_notification">Benachrichtigungen insgesamt:</string>
+    <string name="more">Mehr</string>
+    <string name="backup_restore">Backup/wiederherstellen</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="info">Die Info</string>
+    <string name="title_update">Sie haben die neueste Version der App</string>
+    <string name="message_update">Verwalten und suchen Sie jetzt ganz einfach Benachrichtigungen!</string>
+    <string name="developer_contact">Entwicklerkontakt</string>
+    <string name="internet_error">Internetverbindungsfehler</string>
+    <string name="retry">Wiederholen</string>
+    <string name="retry_button">Klicken Sie auf, um es erneut zu versuchen</string>
+    <string name="message_no_notify">Noch keine Benachrichtigungen protokolliert!</string>
+    <string name="message_no_notify_yet">Es wurde noch keine Benachrichtigung protokolliert</string>
+    <string name="note">Hinweis</string>
+    <string name="message_notification_exceed">Sie haben mehr als 15.000 Benachrichtigungen protokolliert. Wir bitten Sie, Benachrichtigungen zu löschen, damit die App reibungslos ausgeführt werden kann</string>
+    <string name="dismiss_caps">ENTLASSEN</string>
+    <string name="clear_caps">KLAR</string>
+    <string name="message_cleared">Gelöst!</string>
+    <string name="alert_suggestion">Ihr Vorschlag</string>
+    <string name="alert_suggestion_message">Geben Sie Details an und senden Sie uns eine E-Mail</string>
+    <string name="send_mail">Mail senden</string>
+    <string name="message_send_mail">SENDEN SIE DIE MAIL ÜBER GMAIL/YAHOO</string>
+    <string name="share_url">URL teilen</string>
+    <string name="sharing_app">App teilen ..</string>
+    <string name="deleted_success">Erfolgreich gelöscht !</string>
+    <string name="message_deleted_success">Protokolle wurden gelöscht</string>
+    <string name="message_database_restore">Datenbank erfolgreich wiederhergestellt Bitte App neu starten</string>
+    <string name="next" translatable="false">NÄCHSTER</string>
+    <string name="skip" translatable="false">ÜBERSPRINGEN</string>
+    <string name="start">VERSTANDEN</string>
+    <string name="slide_1_title">Herzlich willkommen !</string>
+    <string name="slide_1_desc" translatable="false">Erhalten Sie alle Ihre Benachrichtigungen auf einer Plattform!</string>
+    <string name="slide_2_title">Sichern</string>
+    <string name="slide_2_desc">Ihre Privatsphäre ist unser Hauptanliegen. Verwalten Sie Benachrichtigungen sicher</string>
+    <string name="slide_3_title">Einfach zu verwenden</string>
+    <string name="slide_3_desc">Verwalten Sie alle Ihre Benachrichtigungen und deren Einstellungen ganz einfach</string>
+    <string name="slide_4_title">Alle neue Benutzeroberfläche</string>
+    <string name="slide_4_desc">Genießen Sie jetzt die App mit allen neuen Funktionen und der Benutzeroberfläche in dieser Beta-Version</string>
+    <string name="play_again_desc">Um den Begrüßungsregler wieder anzuzeigen, gehen Sie zu Einstellungen -> Apps -> Begrüßungsregler -> Daten löschen</string>
+    <string name="play_again">Nochmal abspielen</string>
+    <string name="settings_notificaton">Benachrichtigungen</string>
+</resources>
